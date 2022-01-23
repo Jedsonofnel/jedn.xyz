@@ -11,19 +11,13 @@ excerpt: An introduction to the project and my initial planning process.
 
 This is going to be the first bit of documentation for my bass guitar from scratch project, written so that I may enthuse about it and potentially help other people do something similar. This blog series also gives me the opportunity to look at my project from a more objective perspective and criticize what I did, hopefully providing me with some helpful learning points going forward in my engineering career. It's also worth mentioning that at the time of writing (2021 summer holidays) I have not fully completed the project as it is at school in the UK (I live in Hungary), so some of the tenses regarding what I did vs what I plan to do may be a bit weird, just as a warning.
 
-## 
-
 ## Project conception
 
 It was January 2021 and I was stuck at home in Budapest because schools were shut due to the pandemic, so my parents offered to fund a cool engineering-y project that I could get stuck in to. I was (and still am!) really into my bass guitar playing but also guitar gear, and having already switched out the electronics in my Precision Bass I wanted something a bit more from scratch. There is quite a popular trend I've seen on guitar YouTube channels where people take a standard guitar kit and mod them quite significantly, so wanting to do something similar, but more "from scratch", I decided to build as much of my own bass guitar as practically possible to get an actually playable end product.
 
-## 
-
 ## Project planning
 
 At home the only tools we had were a cordless drill and some assorted screwdrivers we keep in the garage, which means much of the challenge was whether it could actually be done. Obviously I would be buying some basic power tools but I still had to be very strategic regarding what components I would have to buy and what I would build. The main components that I decided to build from scratch are:
-
-### 
 
 ### The body:
 
@@ -39,8 +33,6 @@ One trick I did miss which almost proved fatal was the position of the bridge (T
 
 Another aspect of the body that I will be doing from scratch is all the electronics. Obviously I purchased all the potentiometers and capacitors and other components but I will be wiring up the pickups and the tone pot and output jack by myself, however I haven't done this yet as this is one of the last things to do, once everything else is in place really.
 
-### 
-
 ### The pickups:
 
 [![picture of my homemade pickup bobbins](https://github.com/Jedsonofnel/jeds-hut-contents/raw/main/pickup-bobbin)](https://github.com/Jedsonofnel/jeds-hut-contents/blob/main/pickup-bobbin)
@@ -49,17 +41,13 @@ I decided to build these from scratch as a new pair of nice Jazz Bass Pickups, t
 
 The most significant part that I decided to to order was:
 
-### 
-
 ### The neck
 
 [![picture of my bass neck](https://github.com/Jedsonofnel/jeds-hut-contents/raw/main/bass-neck)](https://github.com/Jedsonofnel/jeds-hut-contents/blob/main/bass-neck)
 
-The reason I had to order this is because a good fretboard is most of what makes physically playing a bass more comfortable, so I did not want to make any compromises. Furthermore, there are many little details that would be very difficult to build with limited tools, such as embedding the truss rod and giving the fretboard a very slight curvature, which needs to be even all the way along. I was able to get this cheap maple Jazz Bass neck (meaning it is pretty slim, so easier to reach notes faster) online for about 30 euros which was a really good deal.
+The reason I had to order this is because a good fret board is most of what makes physically playing a bass more comfortable, so I did not want to make any compromises. Furthermore, there are many little details that would be very difficult to build with limited tools, such as embedding the truss rod and giving the fret board a very slight curvature, which needs to be even all the way along. I was able to get this cheap maple Jazz Bass neck (meaning it is pretty slim, so easier to reach notes faster) online for about 30 euros which was a really good deal.
 
 All the other parts I ordered were bits of hardware, such as the tuning pegs, the bridge and the knobs to go on the pots, the latter two I managed to get in a nice garish gold colour, which I'm excited about fully realising when I finish the bass with some woodstain when I get back from holiday.
-
-## 
 
 ## Closing remarks
 
