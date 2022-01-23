@@ -6,7 +6,7 @@
   {#each posts as post}
     <li>
       <h2>
-        <a href="/">
+        <a href="/blog/{post.slug}">
           {post.title}
         </a>
       </h2>

@@ -5,13 +5,6 @@ import autoprefixer from 'autoprefixer';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {
-    adapter: adapter(),
-
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte',
-  },
-
   extensions: ['.svelte', '.md'],
 
   preprocess: [
@@ -27,6 +20,11 @@ const config = {
       extensions: ['.md'],
     }),
   ],
+
+  kit: {
+    target: '#svelte',
+    adapter: adapter(),
+  },
 };
 
 export default config;
