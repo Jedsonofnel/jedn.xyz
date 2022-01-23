@@ -1,24 +1,29 @@
-export const get = async () => {
-  const allPostFiles = import.meta.glob('../../blog/*.md');
-  const iterablePostFiles = Object.entries(allPostFiles);
+import { postsPerPage } from '$lib/config';
+import fetchPosts from '$lib/scripts/fetchPosts';
 
-  const allPosts = await Promise.all(
-    iterablePostFiles.map(async ([path, resolver]) => {
-      const { metadata } = await resolver();
-      const postPath = path.slice(2, -3);
+export const get = async ({ url }) => {
+  try {
+    const params = new URLSearchParams(url.search);
 
-      return {
-        meta: metadata,
-        path: postPath,
-      };
-    })
-  );
+    const options = {
+      offset: parseInt(params.get('offset')) || null,
+      limit: parseInt(params.get('limit')) || postsPerPage,
+    };
 
-  const sortedPosts = allPosts.sort((a, b) => {
-    return new Date(b.meta.date) - new Date(a.meta.date);
-  });
+    const { posts } = await fetchPosts(options);
 
-  return {
-    body: sortedPosts,
-  };
+    return {
+      status: 200,
+      body: {
+        posts,
+      },
+    };
+  } catch (error) {
+    return {
+      status: 500,
+      body: {
+        error: 'Could not fetch posts. ' + error,
+      },
+    };
+  }
 };
