@@ -1,22 +1,18 @@
-import { postsPerPage } from '$lib/config';
-import fetchPosts from '$lib/scripts/fetchPosts';
-
-export const get = async ({ url }) => {
+export const get = async () => {
   try {
-    const params = new URLSearchParams(url.search);
-
-    const options = {
-      offset: parseInt(params.get('offset')) || null,
-      limit: parseInt(params.get('limit')) || postsPerPage,
-    };
-
-    const { posts } = await fetchPosts(options);
+    let posts = await Promise.all(
+      Object.entries(import.meta.glob('../../../posts/*.md')).map(
+        async ([path, page]) => {
+          const { metadata } = await page();
+          const slug = path.split('/').pop().split('.').shift();
+          return { ...metadata, slug };
+        }
+      )
+    );
 
     return {
       status: 200,
-      body: {
-        posts,
-      },
+      body: { posts },
     };
   } catch (error) {
     return {

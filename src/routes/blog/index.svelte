@@ -1,15 +1,11 @@
 <script context="module">
   export const load = async ({ fetch }) => {
-    const postRes = await fetch(`/api/posts.json`);
-    const { posts } = await postRes.json();
-
-    const countRes = await fetch(`/api/posts/count.json`);
-    const { count } = await countRes.json();
+    const res = await fetch(`/api/posts.json`);
+    const { posts } = await res.json();
 
     return {
       props: {
         posts,
-        count,
       },
     };
   };
