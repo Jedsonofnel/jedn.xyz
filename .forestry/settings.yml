@@ -13,9 +13,9 @@ sections:
   templates:
   - blog-post
 upload_dir: jeds_hut
-public_path: https://res.cloudinary.com/jedn-web-dev/image/upload
-front_matter_path: ''
-use_front_matter_path: false
+public_path: https://res.cloudinary.com/jedn-web-dev/image/upload/t_basic_blog
+front_matter_path: https://res.cloudinary.com/jedn-web-dev/image/upload
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
