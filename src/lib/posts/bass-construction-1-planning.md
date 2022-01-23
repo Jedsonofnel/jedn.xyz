@@ -2,7 +2,7 @@
 publish_date: 23-01-2022
 categories:
 - bass construction
-- " bass guitar"
+- bass guitar
 title: 'Bass Construction 1: Planning'
 excerpt: An introduction to the project and my initial planning process.
 
