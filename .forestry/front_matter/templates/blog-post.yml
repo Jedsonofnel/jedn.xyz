@@ -39,3 +39,5 @@ fields:
   default: []
   label: Categories
   description: Post categories - i.e. tags to describe contents.
+pages:
+- src/lib/posts/bass-construction-1-planning.md
