@@ -1,4 +1,28 @@
 ---
 label: Blog Post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 0
+  label: Title
+  description: Blog Post Title
+- name: publish_date
+  type: datetime
+  description: Date this post is published
+  config:
+    required: true
+    date_format: DD-MM-YYYY
+    time_format: 
+    display_utc: false
+    export_format: DD-MM-YYYY
+  label: Publish date
+  hidden: true
+  default: now
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: Post categories - i.e. tags to describe contents.
