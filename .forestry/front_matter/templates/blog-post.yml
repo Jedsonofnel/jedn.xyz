@@ -1,6 +1,7 @@
 ---
 label: Blog Post
 hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
@@ -21,6 +22,18 @@ fields:
   label: Publish date
   hidden: true
   default: now
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+    min: 10
+    max: 256
+  label: Excerpt
+  description: Brief little excerpt/description of article.
 - name: categories
   type: tag_list
   default: []
