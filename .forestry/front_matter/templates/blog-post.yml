@@ -20,7 +20,7 @@ fields:
     display_utc: false
     export_format: DD-MM-YYYY
   label: Publish date
-  hidden: true
+  hidden: false
   default: now
 - name: excerpt
   type: textarea
