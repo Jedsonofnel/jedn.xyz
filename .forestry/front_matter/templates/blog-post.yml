@@ -38,6 +38,4 @@ fields:
   type: tag_list
   default: []
   label: Categories
-  description: Post categories - i.e. tags to describe contents.
-pages:
-- src/lib/posts/bass-construction-1-planning.md
+  description: Post categories - i.e. tags to describe contents. <em>Please no spaces!</em>
