@@ -57,3 +57,19 @@
     </aside>
   {/if}
 </article>
+
+<style lang="scss">
+  h1 {
+    font-size: 3rem;
+    font-family: v.$title-serif;
+    color: v.$cadetblue;
+  }
+
+  h1::after {
+    content: "";
+    width: 5rem;
+    height: .125em;
+    background: v.$terracotta;
+    display: block;
+  }
+</style>

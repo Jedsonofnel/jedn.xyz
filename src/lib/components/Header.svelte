@@ -1,5 +1,9 @@
+<script>
+  import Logo from "./Logo.svelte";
+</script>
+
 <header>
-  <a href="/">Home</a>
+  <a href="/"><Logo /></a>
 
   <nav>
     <ul>
@@ -18,14 +22,17 @@
 
 <style lang="scss">
   header {
-    padding: 1rem;
-    background: lightskyblue;
+    padding: v.$half-note;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
   }
 
   ul {
+    color: v.$midnightgreen;
+    font-size: 1.25rem;
+
     margin: 0;
     list-style-type: none;
     display: flex;
@@ -33,7 +40,8 @@
   }
 
   a {
-    text-decoration: none;
+    font-size: 1.25rem;
+    text-decoration: inherit;
     color: inherit;
   }
 </style>

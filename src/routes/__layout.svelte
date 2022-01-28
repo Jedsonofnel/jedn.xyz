@@ -12,7 +12,7 @@
 
 <script>
   import Header from '$lib/components/Header.svelte';
-  import '$lib/styles/style.scss';
+  import '$lib/styles/global.scss';
   import { fade } from 'svelte/transition';
 
   export let currentRoute;

@@ -1,8 +1,10 @@
+@use './vars' as v;
+
 body {
   margin: 0;
-  background: #eee;
-  color: #333;
-  font-family: sans-serif;
+  background: v.$bg;
+  color: v.$fg;
+  font-family: v.$sans
 }
 
 main {

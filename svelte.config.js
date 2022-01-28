@@ -10,7 +10,7 @@ const config = {
   preprocess: [
     sveltePreprocess({
       scss: {
-        prependData: `@use 'src/lib/styles/vars.scss' as v;`,
+        prependData: `@use 'src/lib/styles/vars' as v;`,
       },
       postcss: {
         plugins: [autoprefixer],
