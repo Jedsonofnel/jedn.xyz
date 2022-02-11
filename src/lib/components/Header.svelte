@@ -31,8 +31,6 @@
 
   ul {
     color: v.$midnightgreen;
-    font-size: 1.25rem;
-
     margin: 0;
     list-style-type: none;
     display: flex;
@@ -40,7 +38,7 @@
   }
 
   a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: inherit;
     color: inherit;
   }

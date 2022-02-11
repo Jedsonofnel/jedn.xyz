@@ -7,14 +7,23 @@
   div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0;
+    width: 11rem;
+
+    animation-name: bounce;
+    animation-duration: 1s;
   }
 
   span {
-    font-size: 2rem;
+    color: v.$terracotta;
+    font-size: 2.5rem;
   }
 
   h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: v.$cadetblue;
     margin: 0;
   }
 </style>

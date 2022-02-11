@@ -1,14 +1,14 @@
 @use './vars' as v;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   background: v.$bg;
   color: v.$fg;
   font-family: v.$sans
-}
-
-main {
-  padding: 1rem;
-  margin: 2rem auto;
-  max-width: 40rem;
 }

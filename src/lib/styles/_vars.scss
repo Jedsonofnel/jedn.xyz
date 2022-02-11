@@ -17,4 +17,5 @@ $title-serif: 'DM Serif Display', serif;
 
 //Sizing
 $quarter-note: 1.25rem;
+$eighth-note: calc($quarter-note / 2);
 $half-note: calc($quarter-note * 2)
