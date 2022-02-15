@@ -11,8 +11,8 @@
         <a href="/blog">Blog</a>
       </li>
       <li>
-        <a href="#about">
-          Skip
+        <a href="/#about">
+          Me
           <span class="material-icons-round">arrow_downward</span>
         </a>
       </li>
