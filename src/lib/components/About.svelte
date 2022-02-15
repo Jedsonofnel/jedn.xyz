@@ -27,29 +27,6 @@
     <br />
     - Mr. New Vegas
   </blockquote>
-
-  <h3>Tech skills:</h3>
-  <ul>
-    <li>Golang with gorilla/mux for backend.</li>
-    <li>Postgresql for database stuff.</li>
-    <li>Lots of experience with bare HTML, CSS and JS.</li>
-    <li>Svelte with SvelteKit is my frontend weapon of choice.</li>
-    <li>One summer holiday's worth of ruby/rails knowledge.</li>
-    <li>Excellent unix skills - I use Arch btw</li>
-  </ul>
-
-  <h3>Fun facts:</h3>
-  <ul>
-    <li>Number of toes: 10</li>
-    <li>Favorite colour: Purple</li>
-    <li>(as an aside the css "color" spelling makes me sick)</li>
-    <li>I drink black coffee to impress my dad</li>
-    <li>
-      I have definitely spent more time customising my Linux setup than getting
-      work done
-    </li>
-    <li>I will work for money</li>
-  </ul>
 </section>
 
 <style lang="scss">

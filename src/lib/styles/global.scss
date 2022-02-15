@@ -12,3 +12,7 @@ body {
   color: v.$fg;
   font-family: v.$sans
 }
+
+html {
+  scroll-behavior: smooth;
+}

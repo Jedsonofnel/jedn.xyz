@@ -11,10 +11,10 @@
         <a href="/blog">Blog</a>
       </li>
       <li>
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a href="/contact">Contact</a>
+        <a href="#about">
+          Skip
+          <span class="material-icons-round">arrow_downward</span>
+        </a>
       </li>
     </ul>
   </nav>
@@ -41,5 +41,19 @@
     font-size: 1.5rem;
     text-decoration: inherit;
     color: inherit;
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.2rem;
+
+    &:hover {
+      border-bottom: solid v.$terracotta 0.2rem;
+      padding-bottom: 0;
+    }
+  }
+
+  li + li {
+    border-left: solid v.$cadetblue 0.2rem;
+    padding-left: 1rem;
   }
 </style>
