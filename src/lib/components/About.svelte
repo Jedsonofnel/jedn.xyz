@@ -1,11 +1,5 @@
 <section id="about">
-  <h2>
-    About me:
-    <img
-      src="https://res.cloudinary.com/jedn-web-dev/image/upload/t_face_focus/v1643470506/jeds_hut/jed_yc7zq2.jpg"
-      alt="My face in a ski lift car park"
-    />
-  </h2>
+  <h2>About me:</h2>
 
   <p>
     Hi I'm Jed and I am a very interesting person. I am a big fan of programming
@@ -28,31 +22,3 @@
     - Mr. New Vegas
   </blockquote>
 </section>
-
-<style lang="scss">
-  section {
-    width: 100%;
-    background-color: v.$cadetblue;
-    padding: v.$quarter-note;
-
-    display: grid;
-    grid-gap: v.$eighth-note;
-  }
-
-  h2 {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    justify-content: space-between;
-  }
-
-  img {
-    border-radius: 50%;
-    width: 5rem;
-  }
-
-  blockquote {
-    padding-left: v.$eighth-note;
-    border-left: v.$midnightgreen solid 0.25rem;
-  }
-</style>

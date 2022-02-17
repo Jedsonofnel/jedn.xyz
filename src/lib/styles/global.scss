@@ -1,4 +1,4 @@
-@use './vars' as v;
+@use 'vars' as v;
 
 * {
   box-sizing: border-box;
@@ -10,9 +10,78 @@ body {
   margin: 0;
   background: v.$bg;
   color: v.$fg;
-  font-family: v.$sans
+  font-family: v.$sans;
+  overflow-y: scroll;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: v.$eighth-note;
+}
+
+h2 {
+  font-size: 2rem;
+  color: v.$fg;
+
+  margin-top: v.$half-note;
+
+  &:after {
+    content: '';
+    width: 5rem;
+    display: block;
+    padding: 0;
+    border-bottom: v.$terracotta v.$sixteenth-note solid;
+
+    margin: v.$quarter-note 0 v.$half-note 0;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: v.$fg;
+  margin: v.$eighth-note 0;
+}
+
+img {
+  max-width: 100%;
+  border-left: v.$midnightgreen solid v.$sixteenth-note;
+  padding-left: v.$eighth-note;
+  margin: v.$eighth-note 0;
+}
+
+blockquote {
+  padding-left: v.$eighth-note;
+  border-left: v.$cadetblue solid v.$sixteenth-note;
+  font-size: 1.25rem;
+  color: v.$fg;
+  line-height: 1.5;
+}
+
+ul {
+  font-size: 1.25rem;
+  list-style: square;
+  list-style-position: inside;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-decoration: underline;
+
+  &:hover,
+  &:active {
+    text-decoration-style: double;
+  }
+}
+
+span.material-icons-round {
+  text-decoration: none;
 }

@@ -1,18 +1,23 @@
-<div>
+<a class="logolink" href="/">
   <span class="material-icons-round">cottage</span>
   <h3>Jed's Hut</h3>
-</div>
+</a>
 
 <style lang="scss">
-  div {
+  .logolink {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
+    margin: 0 v.$quarter-note 0 0;
     width: 11rem;
+    text-decoration: none;
 
-    animation-name: bounce;
-    animation-duration: 1s;
+    &:hover,
+    &:active {
+      h3 {
+        text-decoration-style: double;
+      }
+    }
   }
 
   span {
@@ -23,7 +28,10 @@
   h3 {
     font-size: 2rem;
     font-weight: bold;
-    color: v.$cadetblue;
+    font-style: normal;
+    color: v.$fg;
     margin: 0;
+    text-decoration: underline;
+    text-decoration-color: v.$cadetblue;
   }
 </style>

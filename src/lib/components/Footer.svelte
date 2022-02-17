@@ -34,16 +34,16 @@
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/">Blog</a>
+        <a href="/blog">Blog</a>
       </li>
       <li>
-        <a href="/">Portfolio</a>
+        <a href="/#about">About me</a>
       </li>
       <li>
-        <a href="/">About me</a>
+        <a href="/#portfolio">Portfolio</a>
       </li>
       <li>
-        <a href="/">Contact</a>
+        <a href="mailto: jed@nelson.ac">Contact</a>
       </li>
     </ul>
   </section>
@@ -57,7 +57,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: v.$whole-note;
+    padding-bottom: v.$half-note;
+    margin-top: v.$whole-note;
   }
 
   section {
@@ -66,15 +67,17 @@
   }
 
   h3 {
+    color: v.$bg;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    font-size: 1.5rem;
+    margin: 0;
   }
 
-  span {
+  .material-icons-round {
     font-size: 2rem;
   }
 
@@ -83,22 +86,7 @@
     margin-bottom: v.$eighth-note;
   }
 
-  p {
-    font-size: 1rem;
-  }
-
   a {
-    font-size: 1.5rem;
     color: v.$terracotta;
-    text-decoration: underline;
-
-    &:hover,
-    &:active {
-      text-decoration-style: double;
-    }
-  }
-
-  ul {
-    list-style-type: none;
   }
 </style>

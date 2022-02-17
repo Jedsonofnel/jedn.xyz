@@ -1,18 +1,20 @@
 <section id="hero">
   <h1>Welcome to my Hut.</h1>
   <div id="action">
-    <p>
+    <p class="welcome">
       My little storage shed of bits and bobs and things (including my webdev
       portfolio!) that chills on a server somewhere in London!
     </p>
 
-    <div class="links">
-      <a href="#portfolio"> Portfolio </a>
+    <nav>
+      <a href="#recent">Blog Recent</a>
 
-      <a href="#portfolio"> Contact Me </a>
+      <a href="/blog">Blog Index</a>
 
-      <a href="#portfolio"> Blog Recent </a>
-    </div>
+      <a href="#portfolio">Portfolio</a>
+
+      <a href="mailto: jed@nelson.ac">Contact Me</a>
+    </nav>
   </div>
 </section>
 
@@ -30,15 +32,15 @@
     flex: 0 0 auto;
     writing-mode: vertical-lr;
     font-size: 15rem;
-    margin: 0 0 v.$half-note;
     line-height: 1;
     width: auto;
     white-space: nowrap;
+    margin: 0 0 v.$half-note 0;
   }
 
   #action {
     flex: 1 0 15rem;
-    border-top: dotted v.$cadetblue 0.5rem;
+    border-top: dotted v.$terracotta v.$eighth-note;
     padding-top: v.$quarter-note;
 
     display: flex;
@@ -48,17 +50,19 @@
     height: auto;
     position: sticky;
     top: v.$quarter-note;
-    margin: 0 0 v.$half-note;
+    margin: 0 0 v.$half-note 0;
   }
 
-  p {
-    background-color: v.$terracotta;
+  .welcome {
+    color: v.$bg;
+
+    background-color: v.$cadetblue;
     padding: v.$eighth-note;
-    color: v.$magnolia;
-    font-size: 1.25rem;
+    margin: 0;
   }
 
-  .links {
+  nav {
+    margin-top: v.$quarter-note;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,10 +70,10 @@
 
   a {
     font-size: 1.5rem;
+    font-style: normal;
     color: v.$midnightgreen;
-    margin-top: v.$eighth-note;
-    padding-bottom: 0.5rem;
     text-decoration: none;
+    margin-bottom: v.$sixteenth-note;
 
     &::before {
       content: '>';
@@ -83,12 +87,13 @@
     }
 
     &:hover {
-      padding-bottom: 0.25rem;
-      border-bottom: solid v.$terracotta 0.25rem;
+      margin-bottom: 0;
+      border-bottom: solid v.$terracotta v.$sixteenth-note;
     }
   }
 
-  a:hover::after, a:hover::before {
+  a:hover::after,
+  a:hover::before {
     animation: focus 250ms ease-out forwards;
   }
 
