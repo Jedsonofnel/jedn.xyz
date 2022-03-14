@@ -41,3 +41,4 @@ fields:
   description: Post categories - i.e. tags to describe contents. <em>Please no spaces!</em>
 pages:
 - src/posts/bass-construction-part-2-building-the-body.md
+- src/posts/pickup-winding-1-planning-bobbins.md
