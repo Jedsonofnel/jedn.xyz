@@ -1,3 +1,5 @@
+import moment from "moment";
+
 export const get = async () => {
   try {
     let posts = await Promise.all(
@@ -10,9 +12,15 @@ export const get = async () => {
       )
     );
 
+    let sortedPosts = posts.sort(
+      (a, b) =>
+        moment(b.publish_date, 'DD-MM-YYYY') -
+        moment(a.publish_date, 'DD-MM-YYYY')
+    );
+
     return {
       status: 200,
-      body: posts,
+      body: sortedPosts,
     };
   } catch (error) {
     return {
