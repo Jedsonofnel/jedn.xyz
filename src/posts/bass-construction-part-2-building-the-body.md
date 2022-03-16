@@ -14,7 +14,7 @@ This blog post is going to document how I built the body of my bass guitar.  Mos
 
 Heavily inspired by [This Video](https://www.youtube.com/watch?v=r6Ar2qn5ZO8&t=1053s) I decided that for the body's material I would use lengths of 2 by 4 pine glued together with a thin layer of plywood glued on top as a sort of veneer.  When it comes to guitar wood, manufacturers like Fender and Gibson will use many different tonewoods, most frequently Basswood, Mahogany or Maple.  While expensive woods will have all lovely and unique timbres, when it comes to electric guitars, the vast majority of the tone comes from the pickups, rather than the resonating of the wood.  Furthermore, nice guitar wood can be expensive, I wasn't up to the challenge of trying to source some in Hungary, and even if I did get expensive wood I wouldn't be able to do it justice with my small jigsaw.  All this to say, I think that the downsides of not using tonewood are pretty negligible unless you know you are going to be working to a very high quality.
 
-![Picture of the quick sketch I drew of my bass](https://res.cloudinary.com/jedn-web-dev/image/upload/t_basic_blog/v1633541223/jeds_hut/b111b659a2b935cbd4a74c660ac1e67c.jpg "Bass Plan")
+![The quick sketch I drew of my bass](https://res.cloudinary.com/jedn-web-dev/image/upload/t_basic_blog/v1633541223/jeds_hut/b111b659a2b935cbd4a74c660ac1e67c.jpg "Bass Plan")
 
 As part of planning I also drew this quick sketch of what I wanted the shape of the body to be.  I mentioned and explained this in my previous blog post, so check that out if you haven't, but it's worth mentioning that the one dimension worth getting is the position of the bridge, as this could prove fatal later on.
 
@@ -28,7 +28,7 @@ I briefly explained this in the last blog post but the physics behind this has t
 
 I started by measuring and cutting the 2 x 2m of 2-by-4 into 5 lengths of 600mm with a jigsaw, and then sanding down the shorter long edges with an orbital sander to get them as flat and ready to glue:
 
-![cut wood with an orbital sander next to it](https://res.cloudinary.com/jedn-web-dev/image/upload/t_basic_blog/v1633541247/jeds_hut/162467a48c63a66b091334d3aec44b31.jpg "Cut Wood")
+![Cut wood with an orbital sander next to it](https://res.cloudinary.com/jedn-web-dev/image/upload/t_basic_blog/v1633541247/jeds_hut/162467a48c63a66b091334d3aec44b31.jpg "Cut Wood")
 
 I lined them up in the way that fit the best and glued two together and then three together and then the two and the three together to make the final rectange:
 
